@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Snap Buy</title>
+</head>
+
+<body>
+    <!--Navigation Section-->
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand">Snap Buy</a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!--Product Section-->
+    <h2>Product List</h2>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <img src="/img/laptop.jpeg" class="card-img-top" alt="Laptop Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Mac Book Pro</h5>
+                        <p id="laptop_price">190000/-</p>
+                        <p class="card-text">Our most powerful laptops, supercharged by M1
+                            and M2 chips. Featuring Magic
+                            Keyboard, Touch Bar, Touch ID, and brilliant Retina display.</p>
+                        <button id="laptop_btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <img src="/img/pixel-5.jpg" class="card-img-top" alt="Google Pixel 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Google Pixel 5</h5>
+                        <p id="pixel_price">65000/-</p>
+                        <p class="card-text">A 6-inch OLED display with a 90Hz refresh rate and 8MP selfie camera are
+                            presented at the front. Google Pixel 5 is powered by Android 11.</p>
+                        <button id="pixel_btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <img src="/img/eset_promo.jpg" class="card-img-top" alt="ESET Antivirus">
+                    <div class="card-body">
+                        <h5 class="card-title">ESET Antivirus</h5>
+                        <p id="eset_price">1500/-</p>
+                        <p class="card-text">ESET NOD32 Antivirus, commonly known as NOD32, is an antivirus software
+                            package made by the Slovak company ESET.</p>
+                        <button id="eset_btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <img src="/img/gts-2 mini.jpg" class="card-img-top" alt="Amazfit GTS 2 Mini">
+                    <div class="card-body">
+                        <h5 class="card-title">Amazfit GTS 2 Mini</h5>
+                        <p id="amazfit_price">7999/-</p>
+                        <p class="card-text">Amazfit GTS 2 mini Health and Fitness Smart Watch with Super-light and Thin
+                            Design, 14 Days' Battery Life, 68+ Sports Modes.</p>
+                        <button id="amazfit_btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <!--Cart Section-->
+    <div class="container">
+        <h2>Cart</h2>
+        <ul>
+
+        </ul>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
