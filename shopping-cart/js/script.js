@@ -33,8 +33,6 @@ function addToCart(e) {
 function removeProduct(e) {
     if (e.target.hasAttribute('href')) {
         const product = e.target.parentElement;
-        if (confirm('Are you sure, you want to remove this product from the cart?')) {
-            product.remove();
-        }
+        product.remove();
     }
 }
